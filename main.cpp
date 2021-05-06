@@ -1,5 +1,11 @@
-#include <iostream>
+#include<iostream>
+using namespace std;
 
-int main() {
-  std::cout << "Hello World!\n";
+int main(){
+  int num1,num2;
+  num1=10;
+  num2=20;
+  int sum=num1+num2;
+  cout<<"Sum is :"<<sum;
+  return 0;
 }
