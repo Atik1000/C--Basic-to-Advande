@@ -56,21 +56,99 @@
 // }
 
 // pass or fail
-#include <iostream>
-using namespace std;
-int main()
-{
-    int Marks;
-    cin >> Marks;
-    if (Marks >= 33)
-    {
-        cout << "You are pass:" << Marks;
-    }
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int Marks;
+//     cin >> Marks;
+//     if (Marks >= 33)
+//     {
+//         cout << "You are pass:" << Marks;
+//     }
 
-    else
-    {
-        cout << "You are fail:" << Marks;
-    }
-}
-// Absolute value
+//     else
+//     {
+//         cout << "You are fail:" << Marks;
+//     }
+// }
+
 // Letter grade
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     int Marks;
+//     cin >> Marks;
+//     if (Marks > 100 || Marks < 0)
+//     {
+//         cout << "Inavlid numbers:" << Marks;
+//     }
+
+//     else if (Marks >= 80)
+//     {
+//         cout << "You are A+:" << Marks;
+//     }
+//     else if (Marks >= 70 && Marks <= 79)
+//     {
+//         cout << "You are A:" << Marks;
+//     }
+//     else if (Marks >= 60 && Marks <= 69)
+//     {
+//         cout << "You are A-:" << Marks;
+//     }
+//     else if (Marks >= 50 && Marks <= 59)
+//     {
+//         cout << "You are B:" << Marks;
+//     }
+//     else if (Marks >= 40 && Marks <= 49)
+//     {
+//         cout << "You are C:" << Marks;
+//     }
+//     else if (Marks >= 33 && Marks <= 39)
+//     {
+//         cout << "You are D:" << Marks;
+//     }
+//     else
+//     {
+//         cout << "You are F:" << Marks;
+//     }
+// }
+
+// vowel and consonant
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//     char ch;
+
+//     cout << "Enter a leeter:";
+//     cin >> ch;
+//      ch = tolower(ch);
+//     if (ch == 'a' || ch == 'i' || ch == 'e' || ch == 'o' || ch == 'u' )
+
+//     {
+//         cout << "Vowel";
+//     }
+//     else
+//     {
+//         cout << "Consonant";
+//     }
+// }
+
+// Leap year
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int year;
+//     cin>>year;
+//     if(year%4==0 && year%100 !=0 || year%400==0){
+//         cout<<"This is leap year:"<<year;
+//     }
+//     else{
+//         cout<<"This is not leap year";
+//     }
+// }
+
+
+
